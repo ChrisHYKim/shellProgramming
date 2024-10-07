@@ -1,0 +1,58 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Tue Aug  6 02:10:57 2024
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk/'.
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info.
+#
+# After editing this file, run 'systemctl daemon-reload' to update systemd
+# units generated from this file.
+#
+/dev/mapper/cs-root     /                       xfs     defaults        0 0
+UUID=dd78cb12-3873-4e95-b87c-1440b3ebd7b4 /boot                   xfs     defaults        0 0
+/dev/mapper/cs-home     /home                   xfs     defaults        0 0
+/dev/mapper/cs-swap     none                    swap    defaults        0 0
+
+#
+# (1) SFECIFIC CONfiguration
+#
+#UUID="7a4271a5-c91b-4c9e-8dcf-874c241aa514"      /testmount    xfs        defaults        0   2
+#UUID=4e26bb2c-66cc-48dc-8cd5-beca1e567afc  /testmount      ext4    defaults        0 2
+
+#
+#   (2) oracle Configuration
+#
+#/dev/sdd1   /oracle         xfs         defaults        1   2
+#UUID=b2a133d6-0e81-4b6f-a380-50349b406827 /oracle        xfs     defaults    0   2
+#
+#   (3) LVM Configuration
+#
+#/dev/mapper/vg1-lv1     /lv1    ext4    defaults    0   2
+#/dev/vg1/lv2            /lv2    ext4    defaults    0   2
+
+# 
+# (4) LVM MOUNT
+#
+#/dev/VG1/LV1    /lvm1   ext4    defaults    0   2
+#/dev/VG1/LV2    /lvm2   ext4    defaults    0   2
+#/dev/VG2/LV3    /lvm3   ext4    defaults    0   2
+#/dev/VG2/LV4    /lvm4   ext4    defaults    0   2
+
+#
+# (5) RAID CONFIGURATION
+#
+#UUID=605aa180-138d-4224-9b88-564c455d3d41   /raid0  xfs defaults    1   2
+#UUID=41fdf44d-a52f-4df7-a68b-2f28155aa051   /raid1  xfs defaults    1   2
+#UUID=72c4dba0-3629-4af6-bcff-7bf9545497f2   /raid5  xfs defaults     0   2
+#
+# (6) SWAP CONFIGURATION
+#
+#/swap/swapfile  none    swap    defaults    0   0
+#/swap/swapfile  none    swap    defaults    0   0
+#/dev/cs/swap2   none    swap    defaults    0   2
+
+#
+# (7) SMB Configuration
+#
+#//192.168.10.202/samba_share     /mnt/server     cifs    credentials=/root/cred                0 0
