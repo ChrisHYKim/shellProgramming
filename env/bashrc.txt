@@ -30,6 +30,7 @@ alias vi='/usr/bin/vim'
 alias grep='grep --color=auto -i'
 alias c="clear"
 alias df='df -h -T'
+# ps1 변수설정
 #export PS1='[\u@\h \w]\$'
 export PATH=$PATH:/test 
 export PATH=$PATH:/root/scripts
