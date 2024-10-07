@@ -1,0 +1,59 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+192.168.10.10  main.example.com     main
+192.168.10.20  server1.example.com  server1
+192.168.10.30  server2.example.com  server2
+
+192.168.10.30  www.example.com
+
+172.16.6.202   linux202.example.com  linux202
+172.16.6.200   linux200.example.com  linux200
+172.16.6.201   linux201.example.com  linux201
+172.16.6.203   linux203.example.com  linux203
+172.16.6.204   linux204.example.com  linux204
+172.16.6.205   linux205.example.com  linux205
+172.16.6.206   linux206.example.com  linux206
+172.16.6.207   linux207.example.com  linux207
+172.16.6.208   linux208.example.com  linux208
+172.16.6.209   linux209.example.com  linux209
+172.16.6.210   linux210.example.com  linux210
+172.16.6.211   linux211.example.com  linux211
+172.16.6.212   linux212.example.com  linux212
+172.16.6.213   linux213.example.com  linux213
+172.16.6.214   linux214.example.com  linux214
+172.16.6.215   linux215.example.com  linux215
+172.16.6.216   linux216.example.com  linux216
+172.16.6.217   linux217.example.com  linux217
+172.16.6.218   linux218.example.com  linux218
+172.16.6.219   linux219.example.com  linux219
+172.16.6.220   linux220.example.com  linux220
+172.16.6.221   linux221.example.com  linux221
+172.16.6.222   linux222.example.com  linux222
+172.16.6.223   linux223.example.com  linux223
+172.16.6.224   linux224.example.com  linux224
+172.16.6.225   linux225.example.com  linux225
+172.16.6.226   linux226.example.com  linux226
+172.16.6.227   linux227.example.com  linux227
+172.16.6.228   linux228.example.com  linux228
+172.16.6.229   linux229.example.com  linux229
+172.16.6.230   linux230.example.com  linux230
+172.16.6.231   linux231.example.com  linux231
+172.16.6.232   linux232.example.com  linux232
+172.16.6.233   linux233.example.com  linux233
+172.16.6.234   linux234.example.com  linux234
+172.16.6.235   linux235.example.com  linux235
+172.16.6.236   linux236.example.com  linux236
+172.16.6.237   linux237.example.com  linux237
+172.16.6.238   linux238.example.com  linux238
+172.16.6.239   linux239.example.com  linux239
+172.16.6.240   linux240.example.com  linux240
+172.16.6.241   linux241.example.com  linux241
+172.16.6.242   linux242.example.com  linux242
+172.16.6.243   linux243.example.com  linux243
+172.16.6.244   linux244.example.com  linux244
+172.16.6.245   linux245.example.com  linux245
+172.16.6.246   linux246.example.com  linux246
+172.16.6.247   linux247.example.com  linux247
+172.16.6.248   linux248.example.com  linux248
+172.16.6.249   linux249.example.com  linux249
